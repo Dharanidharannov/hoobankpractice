@@ -1,94 +1,95 @@
 import React from "react";
 import Image from "next/image";
-import { Row,Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Section5(){
-    return(
-        <div className="bg-black h-[70vh]">
-              <div>
-         <Row>
-            <Col lg={6} className=' h-[18vh]'>
+function Section5() {
+    return (
+        <div className="bg-black h-auto py-10 px-4">
+            <div className="container">
+                <Row className="text-center mb-4">
+                    <Col xs={12} lg={6} className="mb-4 lg:mb-0">
+                        <p className="text-2xl lg:text-4xl font-bold text-white">
+                            What people are
+                        </p>
+                        <p className="text-xl lg:text-3xl font-bold text-white">
+                            saying about us
+                        </p>
+                    </Col>
+                    <Col xs={12} lg={6}>
+                        <p className="text-sm lg:text-base text-slate-500">
+                            Everything you need to accept card payments and grow your business anywhere on the planet.
+                        </p>
+                    </Col>
+                </Row>
 
-            <p className='ml-36 fs-2 fw-bold'>
-            What people are 
-            </p>
-            <p className='ml-36 fs-3 fw-bold'>
+                <Row className="g-4">
+                    <Col xs={12} md={6} lg={4}>
+                        <div className="bg-gray-800 p-4 rounded-xl hover:bg-gray-700">
+                            <Image src="/“.png" height={50} width={50} className='mb-4' alt="profile"/>
+                            <p className='text-sm text-white'>
+                                Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
+                            </p>
+                            <div className='flex items-center mt-4'>
+                                <Image src="/Image.png" width={50} height={50} alt="avatar" />
+                                <div className='ml-2'>
+                                    <span className='text-white font-semibold'>
+                                        Herman Jensen
+                                    </span>
+                                    <br />
+                                    <span className='text-gray-400'>
+                                        Founder & Leader
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
 
-            saying about us
-            </p>
-            
-            </Col>
-            <Col lg={6}>
-               <p className='ml-36 mt-10 w-[400px] text-slate-500'>
-               Everything you need to accept card payments and grow your business anywhere on the planet.
-               </p>
-            </Col>
+                    <Col xs={12} md={6} lg={4}>
+                        <div className="bg-gray-800 p-4 rounded-xl hover:bg-gray-700">
+                            <Image src="/“.png" height={50} width={50} className='mb-4' alt="profile"/>
+                            <p className='text-sm text-white'>
+                                Money makes your life easier. If you&apos;re lucky to have it, you&apos;re lucky.
+                            </p>
+                            <div className='flex items-center mt-4'>
+                                <Image src="/Image (1).png" width={50} height={50} alt="avatar" />
+                                <div className='ml-2'>
+                                    <span className='text-white font-semibold'>
+                                        Steve Mark
+                                    </span>
+                                    <br />
+                                    <span className='text-gray-400'>
+                                        Founder & Leader
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
 
-         </Row>
-         <Row className="mt-2 mb-2">
-          <Col lg={3} className=' h-[45vh]  ml-36 rounded-xl hover:bg-gray-500'>
-          <Image src="/“.png" height={10} width={50} className='mt-10 ml-5'/>
-          <p className='mt-3 ml-5'>
-          Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
-          </p>
-          <div className='ml-5 flex mt-1'>
-            <Image src="/Image.png" width={50} height={10} />
-           <div className='flex flex-col ml-2'>
-             <span>
-            Herman Jensen
-            </span>
-            <span className='text-gray-400'>
-            Founder & Leader
-            </span>
-           </div>
-          </div>
-               
-          </Col>
-          <Col lg={3} className=' h-[45vh] ml-10 rounded-xl hover:bg-gray-500'>
-
-          <Image src="/“.png" height={10} width={50} className='mt-10 ml-5'/>
-          <p className='mt-3 ml-5'>
-          Money makes your life easier. If you&apos;re lucky to have it, you&apos;re lucky.
-          </p>
-          <div className='ml-5 flex mt-5'>
-            <Image src="/Image (1).png" width={50} height={10} />
-           <div className='flex flex-col ml-2'>
-             <span>
-             Steve Mark
-            </span>
-            <span className='text-gray-400'>
-            Founder & Leader
-            </span>
-           </div>
-          </div>
-          
-          </Col>
-          <Col lg={3} className=' h-[45vh] ml-10 rounded-xl hover:bg-gray-500'>
-
-          <Image src="/“.png" height={10} width={50} className='mt-10 ml-5'/>
-          <p className='mt-3 ml-5'>
-          It is usually people in the money business, finance, and international trade that are really rich.
-          </p>
-          <div className='ml-5 flex mt-4'>
-            <Image src="/Image (2).png" width={50} height={10} />
-           <div className='flex flex-col ml-2'>
-             <span>
-             Kenn Gallagher
-            </span>
-            <span className='text-gray-400'>
-            Founder & Leader
-            </span>
-           </div>
-          </div>
-          
-          </Col>
-         </Row>
-
-      </div>
-      
+                    <Col xs={12} md={6} lg={4}>
+                        <div className="bg-gray-800 p-4 rounded-xl hover:bg-gray-700">
+                            <Image src="/“.png" height={50} width={50} className='mb-4' alt="profile"/>
+                            <p className='text-sm text-white'>
+                                It is usually people in the money business, finance, and international trade that are really rich.
+                            </p>
+                            <div className='flex items-center mt-4'>
+                                <Image src="/Image (2).png" width={50} height={50} alt="avatar" />
+                                <div className='ml-2'>
+                                    <span className='text-white font-semibold'>
+                                        Kenn Gallagher
+                                    </span>
+                                    <br />
+                                    <span className='text-gray-400'>
+                                        Founder & Leader
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
         </div>
-    )
+    );
 }
 
-export default Section5
+export default Section5;
