@@ -8,7 +8,7 @@ function Footer(){
     return(
         <div className="  bg-black">
               <div style={{borderBottom:'1px solid white'}} >
-                <Row className="mb-3">
+                <Row className="mb-3" lg={12}>
                     <Col lg={3}>
                     <div className="ml-14 mt-4 flex">
                     <Image src="/Group 481747.svg" width={50} height={10} />
@@ -60,7 +60,7 @@ function Footer(){
                     </Col>
                 </Row>
               </div>
-              <div className="mt-3 flex justify-between">
+              <div className="mt-2 ml-2  flex justify-between">
                 <p className="text-slate-500">
                 Copyright © 2021 HooBank. All Rights Reserved.
                 </p>
