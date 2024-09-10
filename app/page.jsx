@@ -13,7 +13,7 @@ import Footer from '@/components/Footer';
 
 function Home() {
   return (
-    <div className="text-white w-full">
+    <div className="text-white w-full" >
       <Nav />
       <Section1 />
       <Section2 />
